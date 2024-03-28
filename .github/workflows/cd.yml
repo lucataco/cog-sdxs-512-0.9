@@ -9,9 +9,8 @@ jobs:
   push:
     runs-on: ubuntu-latest
     env:
-      BASE_MODEL: 'lucataco/sandbox3'
+      BASE_MODEL: 'lucataco/sandbox'
       PROD_MODEL: 'lucataco/sandbox3'
-      PROD_DEPLOYMENT: 'lucataco/sandbox3'
 
     steps:
     - name: checkout
